@@ -1,0 +1,40 @@
+# THE ONLY MANDATORY FIELD (and should not be empty):
+text_types = ["translation"]  # "word-by-word" (=specific type of translation), "transliteration", "original", "commentary" (=footnotes and tafsir)
+
+# Language, writing system are NOT part of the meta data as the should be part of the directory name.
+# We derive the full text names from those prefixes by using a language table (as CSV, see `languages`).
+# For instance:
+#    "en.haque", here "en" is the language code for English
+#    "uz-Aran-AF", "uz" for Uzbek, "Aran" for the Nastaliq variant of the Arabic script, and "AF" for the region Afganistan
+
+
+# ALL FIELDS BELOW ARE NOT MANDATORY (as in many cases they are not know)
+
+title_original = "古兰经"
+title_romanized = "Gǔlánjīng"
+title_english = "Quran"
+subtitle_original = ""
+subtitle_romanized = ""
+subtitle_english = ""
+description_original = ""
+description_english = ""
+
+translators_original = ["馬堅"]
+translators_romanized = ["Mǎ Jiān"]
+translators_english = [""]  # useful when it is an organization
+translators_links = ["https://en.wikipedia.org/wiki/Muhammad_Ma_Jian"]
+commentators_original = ["馬堅"]
+commentators_romanized = ["Mǎ Jiān"]
+commentators_english = [""]  # useful when it is an organization
+commentators_links = ["https://en.wikipedia.org/wiki/Muhammad_Ma_Jian"]
+editors_original = ["馬堅"]
+editors_romanized = ["Mǎ Jiān"]
+editors_english = [""]  # useful when it is an organization
+editors_links = ["https://en.wikipedia.org/wiki/Muhammad_Ma_Jian"]
+
+publisher_original = ""
+publisher_english = ""
+publication_year = 1982
+isbn = "978-3-16-148410-0"
+copyright = "Islamic Center"
+source = "tanzil.net"
